@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.conteiner-nav{
+    float: left;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    margin-bottom: 40px
+}
+.product {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 16em;
+    margin: 0 1em 2.5em;
+    padding: 1.5em 1.5em 2em;
+    border: 1px solid #999;
+}
+.product__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+.product__title {
+    font-size: 150%;
+    margin: 1em 0 0;
+    min-height: 3em;
+    color: white;
+}
+.product__price {
+    font-weight: bold;
+    color: white;
+    display: block;
+    padding: 1em 0;
+}
+.action {
+    display: inline-block;
+    font-size: 1em;
+    white-space: nowrap;
+    padding: 0.85em 1.25em;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+}
+.action--button {
+    border: 1px solid white;
+    color: white;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    align-self: center
+}
+
+.action--button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.row-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.page-footer{
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.conteiner-lojas{
+    margin-left: -200px;
+}
+
+.list-unstyled a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+}
+
+.footer-copyright a{
+    text-decoration: none;
+    color:black;
+}
